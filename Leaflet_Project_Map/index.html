@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/leaflet-search.min.css">
+    <link rel="stylesheet" href="css/Control.MiniMap.min.css">
+    <link rel="stylesheet" href="css/L.Control.SlideMenu.css">
+    <link rel="stylesheet" href="https://ppete2.github.io/Leaflet.PolylineMeasure/Leaflet.PolylineMeasure.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/leaflet.awesome-markers.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet.ajax.js"></script>
+    <script src="js/leaflet-search.min.js"></script>
+    <script src="js/bundle.js"></script>
+    <script src="js/Control.MiniMap.min.js"></script>
+    <script src="js/L.Control.SlideMenu.js"></script>
+    <script src="js/leaflet.awesome-markers.js"></script>
+    <script src="js/leaflet.pattern.js"></script>
+    <script src="https://ppete2.github.io/Leaflet.PolylineMeasure/Leaflet.PolylineMeasure.js"></script>
+    
+    <title>Web GIS Map</title>
+</head>
+<body>
+    <div id="map">
+        <div class="leaflet-top leaflet-left" >
+            <button id="home" title="Home"> <i class="fa fa-home fa-lg"></i></button>
+        </div>
+        <div class="leaflet-bottom leaflet-left">
+            <button id="locate" title="Where Am I"><i class="fa fa-map-marker fa-lg"></i></button>
+        </div>
+
+
+    
+
+        </div>
+
+        
+    <div id="filter-container">
+        <label id="label1" for="filters">Select a type of POI Feature</label>
+        <select multiple size="10"  id="filters">
+            <option value="ATM">ATM</option>
+            <option value="Auditorium">Auditorium</option>
+            <option value="Bridge">Bridge</option>
+            <option value="Building">Building</option>
+            <option value="Canteen">Canteen</option>
+            <option value="Gate">Gate</option>
+            <option value="HealthCare">Health Care</option>
+            <option value="Hostel">Hostel</option>
+            <option value="LampPost">Lamp Post</option>
+            <option value="Library">Library</option>
+            <option value="Park">Park</option>
+            <option value="Playground">Playground</option>
+            <option value="Pond">Pond</option>
+            <option value="StaffQuarter">Staff Quarter</option>
+            <option value="StationaryShop">Stationary Shop</option>
+            <option value="Tap">Tap</option>
+            <option value="Temple">Temple</option>
+            <option value="Others">Others</option>
+        </select>
+        <button id="clear-filter">Clear Filter</button>
+        
+    </div> 
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,215 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map{
+    height: 430px;
+    width: 750px;
+    float: left;
+
+}
+
+#home{
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+    margin-top: 80px;
+    line-height: 30px;
+    cursor: pointer;
+}
+#home:hover{
+    cursor: pointer;
+}
+
+#locate{
+    margin-bottom: 215px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin-left: 12px;
+}
+#locate:hover{
+    cursor: pointer;
+}
+
+
+div.leaflet-control-search.leaflet-control{
+    margin-top: 40px;
+}
+
+
+div.js-measuringprompt{
+    margin-left: 40px;
+}
+
+
+img.parkingphotos{
+    width: 200px;
+    height: 200px;
+}
+
+img.POIphotos{
+    width: 200px;
+    height: 200px;
+}
+
+img.playgroundphotos{
+    width: 200px;
+    height: 200px;
+}
+
+img.waterbodyphotos{
+    width: 200px;
+    height: 200px;
+}
+img.buildingphotos{
+    width: 200px;
+    height: 200px;
+}
+span#POI{
+    color:coral
+}
+
+div.leaflet-control-measure-interaction.js-interaction{
+    margin-bottom: 20px;
+
+}
+
+div.leaflet-control-minimap.leaflet-container.leaflet-touch.leaflet-retina.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom.leaflet-control{
+   margin-top: 80px;
+}
+
+div#filter-container{
+    width: 150px;
+    height: 430px;
+    margin-left: 750px;
+}
+
+/* Awesome Markers Icon CSS*/
+.myDivIcon {
+    text-align: center;
+    /* Horizontally center the text (icon) */
+    line-height: 20px;
+    /* Vertically center the text (icon) */
+  }
+
+
+  @media only screen and (min-width:900px),
+         only screen and (min-height:450px) {
+    #map{
+        height: 430px;
+        width: 750px;
+        float: left;
+    
+    }
+
+    div#filter-container{
+        width: 150px;
+        height: 430px;
+        margin-left: 750px;
+    }
+
+
+  }
+
+  @media only screen and (min-width:1200px),
+         only screen and (min-height:600px) {
+    #map{
+        height: 430px;
+        width: 1050px;
+        float: left;
+    
+    }
+
+    div#filter-container{
+        width: 150px;
+        height: 580px;
+        margin-left: 1050px;
+    }
+
+
+  }
+
+  @media only screen and (max-width:600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #map{
+        height: 580px;
+        width: 500px;
+        display: block;
+    
+    }
+
+    div#filter-container{
+        width: 150px;
+        height: 200px;
+        margin-right: 900px;
+    }
+  }
+
+  @media only screen and (min-width:720px) {
+    
+    #map{
+        height: 580px;
+        width: 570px;
+        float:'left'
+    
+    }
+
+    div#filter-container{
+        width: 150px;
+        height: 580px;
+        margin-left: 570px;
+    }
+
+
+  }
+ 
+  @media only screen and (max-width:500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #map{
+        height: 580px;
+        width: 400px;
+        display: block;
+    
+    }
+
+    div#filter-container{
+        width: 150px;
+        height: 200px;
+        margin-right: 1000px;
+    }
+  }
+
+  @media only screen and (max-width:400px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #map{
+        height: 580px;
+        width: 300px;
+        display: block;
+    
+    }
+
+    div#filter-container{
+        width: 150px;
+        height: 200px;
+        margin-right: 900px;
+    }
+  }
+
