@@ -5,8 +5,8 @@ html, body{
 }
 
 #map{
-    height: 430px;
-    width: 750px;
+    height: 95%;
+    width: 85%;
     float: left;
 
 }
@@ -82,9 +82,9 @@ div.leaflet-control-minimap.leaflet-container.leaflet-touch.leaflet-retina.leafl
 }
 
 div#filter-container{
-    width: 150px;
-    height: 430px;
-    margin-left: 750px;
+    width: 15%;
+    height: 95%;
+    margin-left: 85%;
 }
 
 /* Awesome Markers Icon CSS*/
@@ -99,16 +99,16 @@ div#filter-container{
   @media only screen and (min-width:900px),
          only screen and (min-height:450px) {
     #map{
-        height: 430px;
-        width: 750px;
+        height: 99%;
+        width: 85%;
         float: left;
     
     }
 
     div#filter-container{
-        width: 150px;
-        height: 430px;
-        margin-left: 750px;
+        width: 15%;
+        height: 95%;
+        margin-left: 85%;
     }
 
 
@@ -117,16 +117,16 @@ div#filter-container{
   @media only screen and (min-width:1200px),
          only screen and (min-height:600px) {
     #map{
-        height: 430px;
-        width: 1050px;
+        height: 99%;
+        width: 85%;
         float: left;
     
     }
 
     div#filter-container{
-        width: 150px;
-        height: 580px;
-        margin-left: 1050px;
+        width: 15%;
+        height: 95%;
+        margin-left: 85%;
     }
 
 
@@ -140,32 +140,32 @@ div#filter-container{
         align-items: center;
     }
     #map{
-        height: 580px;
-        width: 500px;
+        height: 80%;
+        width: 100%;
         display: block;
     
     }
 
     div#filter-container{
-        width: 150px;
-        height: 200px;
-        margin-right: 900px;
+        width: 30%;
+        height: 20%;
+        margin-right: 50%;
     }
   }
 
   @media only screen and (min-width:720px) {
     
     #map{
-        height: 580px;
-        width: 570px;
+        height: 99%;
+        width: 85%;
         float:'left'
     
     }
 
     div#filter-container{
-        width: 150px;
-        height: 580px;
-        margin-left: 570px;
+        width: 15%;
+        height: 95%;
+        margin-left: 85%;
     }
 
 
@@ -179,16 +179,16 @@ div#filter-container{
         align-items: center;
     }
     #map{
-        height: 580px;
-        width: 400px;
+        height: 80%;
+        width: 100%;
         display: block;
     
     }
 
     div#filter-container{
-        width: 150px;
-        height: 200px;
-        margin-right: 1000px;
+        width: 30%;
+        height: 20%;
+        margin-right: 50%;
     }
   }
 
@@ -200,16 +200,16 @@ div#filter-container{
         align-items: center;
     }
     #map{
-        height: 580px;
-        width: 300px;
+        height: 80%;
+        width: 100%;
         display: block;
     
     }
 
     div#filter-container{
-        width: 150px;
-        height: 200px;
-        margin-right: 900px;
+        width: 30%;
+        height: 20%;
+        margin-right: 50%;
     }
   }
 
